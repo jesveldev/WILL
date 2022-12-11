@@ -15,6 +15,9 @@ function pluck(array, propiedad) {
 
   // Tu código acá:
 
+  let nuevoArreglo = array.map((e,i)=>e[propiedad]);
+
+  return nuevoArreglo
 }
 
 // No modifiques nada debajo de esta linea //

@@ -14,6 +14,9 @@ function numeroSimetrico(num) {
 
   // Tu código:
 
+  let comparacion = (num+"").split("").reverse().join("");
+
+  return (num+""==comparacion)?true:false;
 }
 
 // No modifiques nada debajo de esta linea //

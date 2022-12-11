@@ -12,6 +12,7 @@ function soloNumeros(array) {
 
   // Tu código aca:
 
+  return array.filter(e=>!isNaN(e));
 }
 
 // No modifiques nada debajo de esta linea //

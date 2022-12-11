@@ -12,6 +12,14 @@ function stringMasLarga(strings) {
   // stringMasLarga(['JavaScript', 'HTML', 'CSS']); debe retornar 'JavaScript'
 
   // Tu código aca
+
+  let longitudes = [];
+
+  strings.forEach(e=>{
+    longitudes.push(e.length);
+  });
+
+  return strings[longitudes.indexOf(Math.max(...longitudes))];
 }
 
 // No modifiques nada debajo de esta linea //
